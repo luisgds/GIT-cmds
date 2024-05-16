@@ -13,3 +13,18 @@ fatal: Not a valid object name: 'master'. >> do not have commits yet
 --git checkout -b name [commit-id] >> create a branch
 Switched to a new branch 'OOP_ruby'
 
+--git add ruby_OOP.rb 
+--git add teste_ruby_OOP.rb
+--git add Anotações.txt
+--git commit -m "Starting the start"
+[OOP_ruby (root-commit) 0accdbf] Starting the start
+ 3 files changed, 16 insertions(+)
+ create mode 100644 "Anota\303\247\303\265es.txt"
+ create mode 100644 ruby_OOP.rb
+ create mode 100644 teste_ruby_OOP.rb
+
+ --git checkout -b master
+Switched to a new branch 'master'
+--git branch >> * is the actual branch
+* OOP_ruby
+  master
