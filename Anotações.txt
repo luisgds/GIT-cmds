@@ -1,0 +1,15 @@
+--git config --global user.name "Seu Nome"
+--git config --global user.email "seu_email@example.com"
+--git config user.name
+Seu Nome
+--git config user.email
+seu_email@example.com
+--git init
+--git branch >> do not exist in the moment
+--git checkout OOP_ruby >> switch to branch called OOP_ruby
+error: pathspec 'OOP_ruby' did not match any file(s) known to git
+--git branch OOP_ruby >> create a branch with name is OOP_ruby
+fatal: Not a valid object name: 'master'. >> do not have commits yet
+--git checkout -b name [commit-id] >> create a branch
+Switched to a new branch 'OOP_ruby'
+
