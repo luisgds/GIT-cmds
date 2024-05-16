@@ -81,3 +81,15 @@ origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
 --git commit -m "car in ruby"
 [OOP_ruby 0e234d6] car in ruby
  3 files changed, 76 insertions(+), 2 deletions(-)
+
+--git checkout master >>lets change the branch .can not change if have alteration no commited
+Switched to branch 'master'
+--git merge OOP >>do not exist this branch named OOP
+merge: OOP - not something we can merge
+--git merge OOP_ruby >> let merge the branch OOP_ruby with master
+Updating 0accdbf..d0f2c6e
+Fast-forward
+ "Anota\303\247\303\265es.txt" | 68 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ruby_OOP.rb                   | 15 +++++++++++++++
+ teste_ruby_OOP.rb             | 14 +++++++++++++-
+ 3 files changed, 96 insertions(+), 1 deletion(-)
