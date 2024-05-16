@@ -74,4 +74,10 @@ origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
 
 --git add >> only adds commit changes to existing files
 --git add -A >> commit everything
---git reset HEAD exemplo.txt >> remove the "git add -A" you added now
+{ Do not need do this right now
+--git reset HEAD >> remove the "git add -A" you added now
+--git reset --hard >> this one back everything to last commit (caution)
+}
+--git commit -m "car in ruby"
+[OOP_ruby 0e234d6] car in ruby
+ 3 files changed, 76 insertions(+), 2 deletions(-)
