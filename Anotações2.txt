@@ -10,3 +10,11 @@ Luis
 --git config user.email
 LuisgdsTest@example.com
 
+--git remote -v 
+origin  https://github.com/luisgds/OOP-EXAMPLES.git (fetch)
+origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
+--git branch -vv
+* main ae3a87b [origin/main: ahead 1] Base test to git clones infos
+--git push origin main >> Since we gave a "git clone" to main and the branch is already defined by default
+
+--git add Anotações.txt >> always remember to do git add "name" and git commit -m "thing" to make very well explicated
