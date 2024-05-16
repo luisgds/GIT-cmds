@@ -1,0 +1,12 @@
+    GIT CLONE
+How this is a test we could do names test for user
+
+--git clone https://github.com/luisgds/OOP-EXAMPLES.git
+--git config user.name "Luis" >> without --global to make this local
+--git config user.email "LuisgdsTest@example.com"
+
+--git config user.name
+Luis
+--git config user.email
+LuisgdsTest@example.com
+
