@@ -18,3 +18,23 @@ origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
 --git push origin main >> Since we gave a "git clone" to main and the branch is already defined by default
 
 --git add Anotações.txt >> always remember to do git add "name" and git commit -m "thing" to make very well explicated
+
+--git remote show
+origin
+{
+--git cherry-pick commits >> merge commit per commit into the actual branch
+--git checkout branch file1 file2. . . >> merge commits file per file
+}
+
+--git blame Anotações2.txt >> last commit was --git config user.email -LuisgdsTest@example.com
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  1)     GIT CLONE
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  2) How this is a test we could do names test for user
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  3) 
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  4) --git clone https://github.com/luisgds/OOP-EXAMPLES.git
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  5) --git config user.name "Luis" >> without --global to make this local
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  6) --git config user.email "LuisgdsTest@example.com"
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  7) 
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  8) --git config user.name
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  9) Luis
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 10) --git config user.email
+ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com
