@@ -1,3 +1,6 @@
+rm -rf .git >> remove the git 
+git status >> know what is commit
+
     GIT CLONE
 How this is a test we could do names test for user
 
