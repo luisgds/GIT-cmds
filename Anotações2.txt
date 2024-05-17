@@ -38,3 +38,42 @@ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  8) --git config user.name
 ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  9) Luis
 ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 10) --git config user.email
 ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com
+
+--git diff Anotações2.txt>> last thing commited was ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com so the alteration is
+
+diff --git "a/Anota\303\247\303\265es2.txt" "b/Anota\303\247\303\265es2.txt"
+index 83be321..25886cc 100644
+--- "a/Anota\303\247\303\265es2.txt"
++++ "b/Anota\303\247\303\265es2.txt"
+@@ -37,4 +37,6 @@ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  7)
+ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  8) --git config user.name
+ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  9) Luis
+ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 10) --git config user.email
+-ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com
+\ No newline at end of file
++ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com
++
++--git diff Anotações2.txt
+...skipping...
+diff --git "a/Anota\303\247\303\265es2.txt" "b/Anota\303\247\303\265es2.txt"
+index 83be321..25886cc 100644
+--- "a/Anota\303\247\303\265es2.txt"
++++ "b/Anota\303\247\303\265es2.txt"
+@@ -37,4 +37,6 @@ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  7)
+ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  8) --git config user.name
+ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300  9) Luis
+ ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 10) --git config user.email
+-ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com
+\ No newline at end of file
++ae3a87b0 (Luis 2024-05-16 11:56:44 -0300 11) LuisgdsTest@example.com
++
++--git diff Anotações2.txt
+
+{
+git diff branch [file]
+git log [ref ..ref] [files]
+git log --since="date" files
+git reset --hard ORIG_HEAD
+git reset --hard HEAD
+git revert commit
+}
