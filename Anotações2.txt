@@ -1,6 +1,28 @@
-rm -rf .git >> remove the git 
-git status >> know what is commit
-git log
+--rm -rf .git >> remove the git 
+--git status >> know what is not commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   "Anota\303\247\303\265es2.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+--git log >> know what was commit 
+commit def456
+Author: Seu Nome <seu.email@example.com>
+Date:   Sun May 25 14:00 2024 -0700
+
+    Commit que deseja remover
+
+commit abc123
+Author: Seu Nome <seu.email@example.com>
+Date:   Sun May 24 13:00 2024 -0700
+
+    Commit anterior
+--git revert abc123 >> if you did a git push you can do this to remove this file and need to do a git push to reload the remote repository
 
     GIT CLONE
 How this is a test we could do names test for user
@@ -21,7 +43,8 @@ origin  https://github.com/luisgds/OOP-EXAMPLES.git (fetch)
 origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
 --git branch -vv
 * main ae3a87b [origin/main: ahead 1] Base test to git clones infos
---git push origin main >> Since we gave a "git clone" to main and the branch is already defined by default
+--git push origin main >> Since we gave a "git clone" to main and the branch is already defined by default or 
+--git push -u origin main >> lately will need only git push
 
 --git add Anotações.txt >> always remember to do git add "name" and git commit -m "thing" to make very well explicated
 
