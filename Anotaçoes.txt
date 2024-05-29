@@ -1,0 +1,95 @@
+--git config --global user.name "Seu Nome"
+--git config --global user.email "seu_email@example.com"
+--git config user.name
+Seu Nome
+--git config user.email
+seu_email@example.com
+--git init
+--git branch >> do not exist in the moment
+--git checkout OOP_ruby >> switch to branch called OOP_ruby
+error: pathspec 'OOP_ruby' did not match any file(s) known to git
+--git branch OOP_ruby >> create a branch with name is OOP_ruby
+fatal: Not a valid object name: 'master'. >> do not have commits yet
+--git checkout -b name [commit-id] >> create a branch
+Switched to a new branch 'OOP_ruby'
+
+--git add ruby_OOP.rb 
+--git add teste_ruby_OOP.rb
+--git add Anotações.txt
+--git commit -m "Starting the start"
+[OOP_ruby (root-commit) 0accdbf] Starting the start
+ 3 files changed, 16 insertions(+)
+ create mode 100644 "Anota\303\247\303\265es.txt"
+ create mode 100644 ruby_OOP.rb
+ create mode 100644 teste_ruby_OOP.rb
+
+ --git checkout -b master
+Switched to a new branch 'master'
+--git branch >> * is the actual branch
+* OOP_ruby
+  master
+
+--git add Anotações.txt
+--git commit -m "New infos to Anotacoes"
+[OOP_ruby aaf2549] New infos to Anotacoes
+ 1 file changed, 15 insertions(+)
+
+--git config branch.OOP_ruby.remote >> see what repository is config
+--git config branch.OOP_ruby.merge  >> see what branch is config
+--git remote -v >> nothing yet
+--git branch -vv 
+* OOP_ruby aaf2549 New infos to Anotacoes
+  master   0accdbf Starting the start
+
+--git remote add origin https://github.com/luisgds/OOP-EXAMPLES.git >>
+--git push --set-upstream origin OOP_ruby
+
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.06 KiB | 541.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'OOP_ruby' on GitHub by visiting:
+remote:      https://github.com/luisgds/OOP-EXAMPLES/pull/new/OOP_ruby
+remote: 
+To https://github.com/luisgds/OOP-EXAMPLES.git
+ * [new branch]      OOP_ruby -> OOP_ruby
+Branch 'OOP_ruby' set up to track remote branch 'OOP_ruby' from 'origin'.
+
+- Now do this again to now how is configurated
+
+--git config branch.OOP_ruby.remote
+origin
+--git config branch.OOP_ruby.merge
+refs/heads/OOP_ruby
+--git remote -v
+origin  https://github.com/luisgds/OOP-EXAMPLES.git (fetch)
+origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
+--git branch -vv
+* OOP_ruby aaf2549 [origin/OOP_ruby] New infos to Anotacoes
+  master   0accdbf Starting the start
+
+--git add >> only adds commit changes to existing files
+--git add -A >> commit everything
+{ Do not need do this right now
+--git reset HEAD >> remove the "git add -A" you added now
+--git reset --hard >> this one back everything to last commit (caution)
+}
+--git commit -m "car in ruby"
+[OOP_ruby 0e234d6] car in ruby
+ 3 files changed, 76 insertions(+), 2 deletions(-)
+
+--git checkout master >>lets change the branch .can not change if have alteration no commited
+Switched to branch 'master'
+--git merge OOP >>do not exist this branch named OOP
+merge: OOP - not something we can merge
+--git merge OOP_ruby >> let merge the branch OOP_ruby with master
+Updating 0accdbf..d0f2c6e
+Fast-forward
+ "Anota\303\247\303\265es.txt" | 68 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ruby_OOP.rb                   | 15 +++++++++++++++
+ teste_ruby_OOP.rb             | 14 +++++++++++++-
+ 3 files changed, 96 insertions(+), 1 deletion(-)
