@@ -1,0 +1,15 @@
+Simples comands to start with haskell
+
+Para abrir o arquivo com o ghci (interpretado) : ghci (name).hs
+
+pra sair dele : :q
+
+chamar qualquer função (dentro do ghci), ex.: square 3
+
+square :: Int -> Int
+square x = x * x
+-- 9
+
+pra atualizar o arquivo sem sair dele: :r
+
+para saber quais funções tem no arquivo :browse
