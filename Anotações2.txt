@@ -44,6 +44,20 @@ origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
 * main ae3a87b [origin/main: ahead 1] Base test to git clones infos
 --git push origin main >> Since we gave a "git clone" to main and the branch is already defined by default or 
 --git push -u origin main >> lately will need only git push
+Se for a primeira vez irá pedir o nome e a senha, porem vai precisar do ssh se o computador for novo
+
+--ssh-keygen -t rsa -b 4096 -C "luisgdscat10@gmail.com"
+vai aparecer um desenho 
+--eval "$(ssh-agent -s)"
+4 linhas
+--ssh-add ~/.ssh/id_rsa
+1linha
+--cat ~/.ssh/id_rsa.pub
+seu ssh
+
+agora vai ter que mudar para ssh todos seus hhtps:
+--ssh -T git@github.com >> yes se for primeira vez
+Hi yourusername! You've successfully authenticated, but GitHub does not provide shell access.
 
 --git add Anotações.txt >> always remember to do git add "name" and git commit -m "thing" to make very well explicated
 
