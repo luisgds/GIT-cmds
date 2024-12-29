@@ -27,7 +27,6 @@ Date:   Sun May 24 13:00 2024 -0700
     GIT CLONE
 How this is a test we could do names test for user
 
---git pull >> update the local repository with the remote repository
 
 --git clone https://github.com/luisgds/OOP-EXAMPLES.git >> git clone -b "name of branch that is not default" htt..."
 --git config user.name "Luis" >> without --global to make this local
@@ -47,6 +46,16 @@ origin  https://github.com/luisgds/OOP-EXAMPLES.git (push)
 --git push -u origin main >> lately will need only git push
 
 --git add Anotações.txt >> always remember to do git add "name" and git commit -m "thing" to make very well explicated
+
+--git commit -m "text"
+[main d129065] novo grafico
+ 1 file changed, 148 insertions(+)
+ create mode 100644 teste_new.py
+
+--git push
+
+--git pull >> update the local repository with the remote repository
+
 
 --git remote show
 origin
