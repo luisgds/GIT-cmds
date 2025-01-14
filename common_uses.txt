@@ -10,3 +10,7 @@ Para criar uma branch e mudar para ela diretamente no Git, você pode usar o com
 *main
 Git_new_cmds
 
+git add pelo vs code...
+
+--git commit -m "Finalizando texto #3 - Texto suporte"
+referenciar a alguma issue no github
