@@ -1,0 +1,12 @@
+verifique a branch que está agora 
+
+--git branch
+*main
+
+Para criar uma branch e mudar para ela diretamente no Git, você pode usar o comando:
+--git checkout -b Git_new_cmds
+
+--git branch
+*main
+Git_new_cmds
+
