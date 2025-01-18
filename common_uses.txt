@@ -26,3 +26,5 @@ resolve os conflitos
 --git checkout main
 tem que estar na principal para escolher qual quer juntar
 --git merge sub-sub-pasta
+
+teste
