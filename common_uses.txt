@@ -14,3 +14,9 @@ git add pelo vs code...
 
 --git commit -m "Finalizando texto #3 - Texto suporte"
 referenciar a alguma issue no github
+
+--git reflog show sub-sub-pasta
+mostra o que foi feito na branch e mostra a branch pai
+
+sempre dê git pull para nao dar comflito e se der arrume e depois 
+dá git merge --continue
