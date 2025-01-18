@@ -20,3 +20,9 @@ mostra o que foi feito na branch e mostra a branch pai
 
 sempre dê git pull para nao dar comflito e se der arrume e depois 
 dá git merge --continue
+
+--git pull
+resolve os conflitos
+--git checkout main
+tem que estar na principal para escolher qual quer juntar
+--git merge sub-sub-pasta
